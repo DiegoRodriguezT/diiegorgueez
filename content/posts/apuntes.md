@@ -16,3 +16,4 @@ draft: false
 ### 2º Cuatrimestre
 - [Estructuras Algebraicas](https://diiegorgueez.me/ea-2324/)
 - Cálculo
+- ~~Probabilidad~~ (cursada en 3º)
