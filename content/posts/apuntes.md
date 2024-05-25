@@ -1,6 +1,6 @@
 ---
 title: 'Apuntes de Matemáticas'
-date: 2019-07-18T17:18:05+01:00
+date: 2024-05-26T00:50:00+02:00
 comments: false
 draft: false
 ---
@@ -9,7 +9,7 @@ draft: false
 
 ### 1º Cuatrimestre
 
-- Matemática Discreta
+- [Matemática Discreta](https://diiegorgueez.me/md-2324/)
 - Álgebra Lineal
 - Lógica
 
