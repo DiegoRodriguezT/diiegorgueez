@@ -14,5 +14,5 @@ draft: false
 - Lógica
 
 ### 2º Cuatrimestre
-- [Estructuras Algebraicas](https://diiegorgueez.me/ea-2324)
+- [Estructuras Algebraicas](https://diiegorgueez.me/ea-2324/)
 - Cálculo
