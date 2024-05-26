@@ -10,7 +10,7 @@ draft: false
 ### 1º Cuatrimestre
 
 - [Matemática Discreta](https://diiegorgueez.me/md-2324/)
-- Álgebra Lineal
+- [Álgebra Lineal](https://diiegorgueez.me/al-2324/) **INCOMPLETO**
 - [Lógica](https://diiegorgueez.me/lg-2324/)
 
 ### 2º Cuatrimestre
