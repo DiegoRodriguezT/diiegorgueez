@@ -11,7 +11,7 @@ draft: false
 
 - [Matemática Discreta](https://diiegorgueez.me/md-2324/)
 - Álgebra Lineal
-- Lógica
+- [Lógica](https://diiegorgueez.me/lg-2324/)
 
 ### 2º Cuatrimestre
 - [Estructuras Algebraicas](https://diiegorgueez.me/ea-2324/)
