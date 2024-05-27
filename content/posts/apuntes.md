@@ -6,7 +6,7 @@ comments: false
 draft: false
 math: true
 ---
-Esta página contiene mis apuntes de las asignaturas del grado de Matemáticas en la Universidad Rey Juan Carlos (a partir del curso 2023-2024), tomados en clase y con la ayuda del material subido por los profesores. Además, se pueden descargar en formato PDF.
+Esta página contiene mis apuntes de las asignaturas del grado de Matemáticas en la Universidad Rey Juan Carlos (a partir del curso 2023-2024), tomados en clase y con la ayuda del material subido por los profesores. Se pueden descargar en formato PDF.
 
 La mayoría del contenido no está revisado y, al haberlo escrito en el momento, pueden tener erratas.
 
