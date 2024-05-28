@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <title>14 Representacion matricial de grafos ‣ Parte IV Teoria de grafos ‣ Matemática Discreta‣ Parte IV Teoria de grafos ‣ Matemática Discreta</title>
-<!--Generated on Sun May 26 11:51:30 2024 by LaTeXML (version 0.8.7) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Generated on Tue May 28 15:52:23 2024 by LaTeXML (version 0.8.7) http://dlmf.nist.gov/LaTeXML/.-->
 
 <link rel="stylesheet" href="LaTeXML.css" type="text/css">
 <link rel="stylesheet" href="ltx-article.css" type="text/css">
@@ -64,16 +64,33 @@
 <h1 class="ltx_title ltx_title_section">
 <span class="ltx_tag ltx_tag_section header-section-number">14</span> Representacion matricial de grafos</h1>
 
-<div id="p1" class="ltx_para">
+<div id="p1" class="ltx_para ltx_noindent">
 <p class="ltx_p">Dado un grafo simple <math id="p1.m1" class="ltx_Math" alttext="\displaystyle G=(V,E)" display="inline"><semantics><mrow><mi>G</mi><mo>=</mo><mrow><mo stretchy="false">(</mo><mi>V</mi><mo>,</mo><mi>E</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle G=(V,E)</annotation></semantics></math>, para construir una de sus matrices de adyacencias, necesitamos ordenar sus vertices. Si el grafo tiene <math id="p1.m2" class="ltx_Math" alttext="\displaystyle n" display="inline"><semantics><mi>n</mi><annotation encoding="application/x-tex">\displaystyle n</annotation></semantics></math> vertices, <math id="p1.m3" class="ltx_Math" alttext="\displaystyle|V|=n" display="inline"><semantics><mrow><mrow><mo stretchy="false">|</mo><mi>V</mi><mo stretchy="false">|</mo></mrow><mo>=</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">\displaystyle|V|=n</annotation></semantics></math>, y los ordenamos como <math id="p1.m4" class="ltx_Math" alttext="\displaystyle V=\{v_{1},v_{2},\ldots,v_{n}\}" display="inline"><semantics><mrow><mi>V</mi><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>v</mi><mi>n</mi></msub><mo stretchy="false">}</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle V=\{v_{1},v_{2},\ldots,v_{n}\}</annotation></semantics></math>, la matriz de adyacencias de <math id="p1.m5" class="ltx_Math" alttext="\displaystyle G" display="inline"><semantics><mi>G</mi><annotation encoding="application/x-tex">\displaystyle G</annotation></semantics></math> con respecto a esa ordenacion de los vertices es la matriz <math id="p1.m6" class="ltx_Math" alttext="\displaystyle A=(a_{ij})" display="inline"><semantics><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy="false">(</mo><msub><mi>a</mi><mrow><mi>i</mi><mo>⁢</mo><mi>j</mi></mrow></msub><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\displaystyle A=(a_{ij})</annotation></semantics></math> de <math id="p1.m7" class="ltx_Math" alttext="\displaystyle n" display="inline"><semantics><mi>n</mi><annotation encoding="application/x-tex">\displaystyle n</annotation></semantics></math> filas y <math id="p1.m8" class="ltx_Math" alttext="\displaystyle n" display="inline"><semantics><mi>n</mi><annotation encoding="application/x-tex">\displaystyle n</annotation></semantics></math> columnas determinadas por la siguiente condicion:</p>
 <div id="Ex104" class="ltx_equation ltx_eqn_div">
 <span><math id="Ex104.m1" class="ltx_Math" alttext="\displaystyle a_{ij}=\begin{dcases}1\text{ si }\{v_{i},v_{j}\}\in E\\
 0\text{ si }\{v_{i},v_{j}\}\not\in E\end{dcases}" display="block"><semantics><mrow><msub><mi>a</mi><mrow><mi>i</mi><mo>⁢</mo><mi>j</mi></mrow></msub><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" displaystyle="true" rowspacing="0pt"><mtr><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mn>1</mn><mo>⁢</mo><mtext> si </mtext><mo>⁢</mo><mrow><mo stretchy="false">{</mo><msub><mi>v</mi><mi>i</mi></msub><mo>,</mo><msub><mi>v</mi><mi>j</mi></msub><mo stretchy="false">}</mo></mrow></mrow><mo>∈</mo><mi>E</mi></mrow></mtd><mtd></mtd></mtr><mtr><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mn>0</mn><mo>⁢</mo><mtext> si </mtext><mo>⁢</mo><mrow><mo stretchy="false">{</mo><msub><mi>v</mi><mi>i</mi></msub><mo>,</mo><msub><mi>v</mi><mi>j</mi></msub><mo stretchy="false">}</mo></mrow></mrow><mo>∉</mo><mi>E</mi></mrow></mtd><mtd></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">\displaystyle a_{ij}=\begin{dcases}1\text{ si }\{v_{i},v_{j}\}\in E\\
 0\text{ si }\{v_{i},v_{j}\}\not\in E\end{dcases}</annotation></semantics></math></span>
 </div>
+<span class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:260.2pt;">
+<span id="p1.p1" class="ltx_para"><img src="bmlimages/main-3.svg" alt="" id="p1.p1.g1" class="ltx_graphics ltx_img_square" style="vertical-align:-1px" width="232" height="237">
+</span></span><span class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:173.4pt;">
+<span id="p1.p2" class="ltx_para">
+<span id="Ex105" class="ltx_equation ltx_eqn_div"><span><math id="Ex105.m1" class="ltx_Math" alttext="\displaystyle\begin{pmatrix}&amp;a&amp;b&amp;c&amp;d&amp;e\\
+a&amp;0&amp;1&amp;1&amp;1&amp;1\\
+b&amp;1&amp;0&amp;1&amp;0&amp;0\\
+c&amp;0&amp;1&amp;0&amp;1&amp;0\\
+d&amp;1&amp;0&amp;1&amp;0&amp;1\\
+e&amp;1&amp;0&amp;0&amp;1&amp;0\\
+\end{pmatrix}" display="block"><semantics><mrow><mo>(</mo><mtable columnspacing="5pt" displaystyle="true" rowspacing="0pt"><mtr><mtd></mtd><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd><mtd><mi>e</mi></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mi>b</mi></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>d</mi></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mi>e</mi></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\displaystyle\begin{pmatrix}&amp;a&amp;b&amp;c&amp;d&amp;e\\
+a&amp;0&amp;1&amp;1&amp;1&amp;1\\
+b&amp;1&amp;0&amp;1&amp;0&amp;0\\
+c&amp;0&amp;1&amp;0&amp;1&amp;0\\
+d&amp;1&amp;0&amp;1&amp;0&amp;1\\
+e&amp;1&amp;0&amp;0&amp;1&amp;0\\
+\end{pmatrix}</annotation></semantics></math></span>
+</span>
+</span></span>
 </div>
-<figure id="fig1" class="ltx_figure"><div style="max-width: 100%; overflow-x: auto; overflow-y: hidden;"><img src="matriz.png" id="g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="479" height="264" alt="[Uncaptioned image]"></div>
-</figure>
 <div id="Thmremarkx6" class="ltx_theorem ltx_theorem_remark">
 
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
@@ -92,7 +109,7 @@
 <p class="ltx_p">En el caso de los grafos dirigidos la situacion es similar. En la posicion <math id="Thmremarkx7.p1.m1" class="ltx_Math" alttext="\displaystyle a_{ij}" display="inline"><semantics><msub><mi>a</mi><mrow><mi>i</mi><mo>⁢</mo><mi>j</mi></mrow></msub><annotation encoding="application/x-tex">\displaystyle a_{ij}</annotation></semantics></math> aparecera un 1 si hay una arista dirigida cuyo vertice inicial es <math id="Thmremarkx7.p1.m2" class="ltx_Math" alttext="\displaystyle v_{i}" display="inline"><semantics><msub><mi>v</mi><mi>i</mi></msub><annotation encoding="application/x-tex">\displaystyle v_{i}</annotation></semantics></math> y cuyo vertice final es <math id="Thmremarkx7.p1.m3" class="ltx_Math" alttext="\displaystyle v_{j}" display="inline"><semantics><msub><mi>v</mi><mi>j</mi></msub><annotation encoding="application/x-tex">\displaystyle v_{j}</annotation></semantics></math> y un cero en caso contrario. Observese que las matrices de adyacencias asociadas a grafos dirigidos no son necesariamente simetricas.</p>
 </div>
 </div>
-<div id="p2" class="ltx_para">
+<div id="p2" class="ltx_para ltx_noindent">
 <p class="ltx_p">Para dar un grafo basta con dar su matriz de adyacencia y muchas propiedades del grafo se pueden obtener directamente de propiedades de sus matrices de adyacencia, como por ejemplo:</p>
 <ul id="I1" class="ltx_itemize">
 <li id="I1.i1" class="ltx_item" style="list-style-type:none;">
@@ -120,7 +137,7 @@
 </div>
 </li>
 <li id="I1.i7" class="ltx_item" style="list-style-type:none;">
-<span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="width:5.2pt;"><span class="ltx_rule" style="width:3.0pt;height:3pt;vertical-align:0.9pt;background:black;display:inline-block;"> </span></span></span><div id="I1.i7.p1" class="ltx_para">​<p class="ltx_p">…</p>
+<span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="width:5.2pt;"><span class="ltx_rule" style="width:3.0pt;height:3pt;vertical-align:0.9pt;background:black;display:inline-block;"> </span></span></span><div id="I1.i7.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">…</p>
 </div>
 </li>
 </ul>
