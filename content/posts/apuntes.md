@@ -21,5 +21,5 @@ Puedes encontrar el código fuente de los apuntes (escritos en $\LaTeX$) [aquí]
 
 ### 2º Cuatrimestre
 - [Estructuras Algebraicas](https://diiegorgueez.me/ea-2324/)
-- Cálculo
+- [Cálculo](https://diiegorgueez.me/cal-2324/)
 - ~~Probabilidad~~ (cursada en 3º)
