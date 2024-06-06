@@ -126,9 +126,15 @@
 	pageSize: 10, 
 	highlightParam: "highlight", 
 	processResult: function (result) {
-        	result.meta.title = document.title;
-        	return result;
-    	}
+        if (!result.raw_title) {
+ 	   result.raw_title = result.meta.title;
+ 	 }
+  	// Add the page type to the title
+ 	 result.meta.title = `${result.filters['asignatura']} ▸ ${result.raw_title}`;
+
+  		return result;
+    	}, 
+	showEmptyFilters: false
  });
     });
 </script>
