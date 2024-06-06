@@ -1,5 +1,5 @@
 ---
-title: 'Buscar en los apuntes'
+
 comments: false
 draft: false
 math: true
