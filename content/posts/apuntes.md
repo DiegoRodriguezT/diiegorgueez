@@ -23,3 +23,5 @@ Puedes encontrar el código fuente de los apuntes (escritos en $\LaTeX$) [aquí]
 - [Estructuras Algebraicas](https://diiegorgueez.me/ea-2324/)
 - [Cálculo](https://diiegorgueez.me/cal-2324/)
 - ~~Probabilidad~~ (cursada en 3º)
+
+<div id="search"></div>

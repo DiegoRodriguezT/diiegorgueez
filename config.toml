@@ -40,3 +40,7 @@ theme = "paper"
     name = "Contacto"
     url = "/contact/"
     weight = 10
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
