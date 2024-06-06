@@ -470,6 +470,11 @@ body {
 
 :is(:where(.dark) body) {
   background-color: rgb(0 0 0 / 0.9);
+  --pagefind-ui-primary: #eeeeee;
+  --pagefind-ui-text: #eeeeee;
+  --pagefind-ui-background: #152028;
+  --pagefind-ui-border: #152028;
+  --pagefind-ui-tag: #152028;
 }
 
 *,
