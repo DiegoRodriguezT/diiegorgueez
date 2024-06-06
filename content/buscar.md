@@ -1,5 +1,5 @@
 ---
-
+title: "Buscar contenido"
 comments: false
 draft: false
 math: true
