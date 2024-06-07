@@ -1,8 +1,11 @@
 {
   "cleanUrls": true, 
   "redirects": [
-    { "source": "/:path*/index.html",
-      "destination": "/:path*/"
+    { "source": "/:path/index.html",
+      "destination": "/:path/"
+    },
+    { "source": "/cal-2324",
+      "destination": "/cal-2324/"
     }
   ]
 }
