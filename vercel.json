@@ -1,11 +1,4 @@
 {
   "cleanUrls": true, 
-  "redirects": [
-    { "source": "/:path",
-      "destination": "/:path/"
-    },
-    { "source": "/cal-2324",
-      "destination": "/cal-2324/"
-    }
-  ]
+  "trailingSlash": true
 }
