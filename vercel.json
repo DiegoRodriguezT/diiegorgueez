@@ -1,4 +1,20 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": "undefined"
+  "cleanUrls": true, 
+  "redirects": [
+    { "source": "/ea-2324",
+      "destination": "/ea-2324/"
+    },
+    { "source": "/cal-2324",
+      "destination": "/cal-2324/"
+    },
+    { "source": "/lg-2324",
+      "destination": "/lg-2324/"
+    }, 
+    { "source": "/al-2324",
+      "destination": "/al-2324/"
+    }, 
+    {
+      "source": "/md-2324",
+      "destination": "/md-2324/"
+  ]
 }
