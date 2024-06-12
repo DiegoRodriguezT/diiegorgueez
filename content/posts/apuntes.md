@@ -1,7 +1,6 @@
 ---
 title: 'Apuntes de Matemáticas'
 author: 'Diego'
-date: 2024-05-26T00:50:00+02:00
 comments: false
 draft: false
 math: true
