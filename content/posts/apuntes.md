@@ -3,6 +3,7 @@ title: 'Apuntes de Matemáticas'
 comments: false
 draft: false
 math: true
+date: 2024-05-12
 tags:
 - apuntes
 - urjc
