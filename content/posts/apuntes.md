@@ -17,7 +17,11 @@ La mayoría del contenido no está revisado tras las clases y pueden haber errat
 
 Puedes encontrar el código fuente de los apuntes (escritos en $\LaTeX$) [aquí](https://github.com/DiegoRodriguezT/apuntesmat). Si quieres contribuir corrigiendo erratas, añadiendo contenido o proponiendo mejoras, deja un pull request en el repositorio de GitHub o [ponte en contacto](https://diiegorgueez.me/contact) conmigo. 
 
+---
+
 <div id="search"></div>
+
+---
 
 ## 1º Curso
 
@@ -32,3 +36,4 @@ Puedes encontrar el código fuente de los apuntes (escritos en $\LaTeX$) [aquí]
 - [Cálculo](https://diiegorgueez.me/cal-2324/)
 - ~~Probabilidad~~ (cursada en 3º)
 
+---
