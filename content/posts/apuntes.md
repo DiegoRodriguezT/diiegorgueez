@@ -10,10 +10,8 @@ tags:
 - urjc
 - universidad
 - matemáticas
-aliases:
-- /apuntes
 ---
-Esta página contiene mis apuntes de las asignaturas del grado de Matemáticas en la Universidad Rey Juan Carlos (a partir del curso 2023-2024), tomados en clase y con la ayuda del material compartido por los profesores. Se pueden consultar tanto a través de la página web como descargándolos en formato PDF. Si quieres buscar contenido específico del grado, pudiendo filtrar por asignatura, utiliza la barra de búsqueda.
+Esta página contiene mis apuntes de las asignaturas del grado de Matemáticas en la Universidad Rey Juan Carlos (a partir del curso 2023-2024), tomados en clase y con la ayuda del material compartido por los profesores. Se pueden consultar tanto a través de la página web como descargándolos en formato PDF. Si quieres buscar contenido específico del grado, utiliza la barra de búsqueda.
 
 La mayoría del contenido no está revisado tras las clases y pueden haber erratas.
 
