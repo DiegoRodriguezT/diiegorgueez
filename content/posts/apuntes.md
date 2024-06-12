@@ -5,14 +5,21 @@ date: 2024-05-26T00:50:00+02:00
 comments: false
 draft: false
 math: true
+tags:
+- apuntes
+- urjc
+- universidad
+- matemáticas
+aliases:
+- /apuntes
 ---
-Esta página contiene mis apuntes de las asignaturas del grado de Matemáticas en la Universidad Rey Juan Carlos (a partir del curso 2023-2024), tomados en clase y con la ayuda del material subido por los profesores. Se pueden descargar en formato PDF.
+Esta página contiene mis apuntes de las asignaturas del grado de Matemáticas en la Universidad Rey Juan Carlos (a partir del curso 2023-2024), tomados en clase y con la ayuda del material compartido por los profesores. Se pueden consultar tanto a través de la página web como descargándolos en formato PDF. Si quieres buscar contenido específico del grado, pudiendo filtrar por asignatura, utiliza la barra de búsqueda.
 
 La mayoría del contenido no está revisado tras las clases y pueden haber erratas.
 
-Puedes encontrar el código fuente de los apuntes (escritos en $\LaTeX$) [aquí](https://github.com/DiegoRodriguezT/apuntesmat). Si quieres contribuir corrigiendo erratas, añadiendo contenido o proponiendo mejoras, deja un pull request en el repositorio de GitHub o ponte en contacto conmigo. 
+Puedes encontrar el código fuente de los apuntes (escritos en $\LaTeX$) [aquí](https://github.com/DiegoRodriguezT/apuntesmat). Si quieres contribuir corrigiendo erratas, añadiendo contenido o proponiendo mejoras, deja un pull request en el repositorio de GitHub o [ponte en contacto](https://diiegorgueez.me/contact) conmigo. 
 
-[Buscar en todos los apuntes](https://diiegorgueez.me/buscar)
+<div id="search"></div>
 
 ## 1º Curso
 
