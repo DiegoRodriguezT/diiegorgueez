@@ -1,6 +1,5 @@
 ---
 title: 'Apuntes de Matemáticas'
-author: 'Diego'
 comments: false
 draft: false
 math: true
