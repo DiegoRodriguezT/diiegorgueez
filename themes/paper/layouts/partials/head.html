@@ -1,6 +1,5 @@
 <head>
-<!-- google tag manager -->
-{{ partial "gtm.html" . }}
+{{ template "_internal/google_analytics.html" . }}
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta
@@ -84,8 +83,6 @@
 
   <!-- Production -->
   {{ if or hugo.IsProduction (eq site.Params.env "production") }}
-  <!---->
-  {{ template "_internal/google_analytics.html" . }}
   <!---->
   {{ template "_internal/schema.html" . }}
   <!---->
