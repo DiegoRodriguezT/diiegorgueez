@@ -19,9 +19,9 @@ theme = "paper"
   # home page profile
   avatar = 'https://diiegorgueez.me/avatar.jpg/'                 # gravatar email or image url
   name = 'Diego Rodríguez'
-  bio = 'Student of Mathematics & Computer Engineering at Universidad Rey Juan Carlos 🧑‍💻'
+  bio = 'Student of Mathematics & Computer Engineering at URJC (Universidad Rey Juan Carlos) 🧑‍💻'
 
-
+  google_tag_manager = "G-7BR7TC6N7L"
   # misc
   disableHLJS = true                        # disable highlight.js
   disablePostNavigation = false              # disable post navigation
